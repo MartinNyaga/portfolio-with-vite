@@ -96,6 +96,14 @@ body{
             }
             
         }
+
+            transform-origin: right;
+            transform: translateX(0);
+            transition: transform 0.3s;
+
+            &.menu-open {
+            transform: translateX(min(80%, 450px));
+            }
     }
 }
 .svgCurve{
