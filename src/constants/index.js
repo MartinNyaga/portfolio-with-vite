@@ -8,11 +8,11 @@ export const navItems = [
       href: "/about",
     },
     {
-      title: "My Work",
-      href: "/work",
+      title: "Projects",
+      href: "/projects",
     },
     {
-      title: "Contact Me",
+      title: "Contact",
       href: "/contact",
     },
   ]
